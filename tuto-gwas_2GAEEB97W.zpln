@@ -130,7 +130,7 @@
       "$$hashKey": "object:222"
     },
     {
-      "text": "%sh\n# Fill Input urn below\nINPUT='s3://...'\n\n# List input files \naws s3 ls $INPUT/DATASETS",
+      "text": "%sh\n# Fill Input urn below\nINPUT='s3://...'\n\n# List input files \naws s3 ls $INPUT/DATASETS/",
       "user": "anonymous",
       "dateUpdated": "2021-06-11T02:25:41+0000",
       "config": {
