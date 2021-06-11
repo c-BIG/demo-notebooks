@@ -130,7 +130,7 @@
       "$$hashKey": "object:222"
     },
     {
-      "text": "%sh\n# Fill Input urn below\nINPUT='s3://...'\n\n# List input files \naws s3 ls $INPUT/DATASETS/",
+      "text": "%sh\n# Fill Input urn below\nINPUT='s3://...'\n\n# List input files \naws s3 ls $INPUT/",
       "user": "anonymous",
       "dateUpdated": "2021-06-11T02:25:41+0000",
       "config": {
@@ -204,7 +204,7 @@
       "$$hashKey": "object:224"
     },
     {
-      "text": "%pyspark\n# Fill input urn below\nINPUT='s3://...'\n\n# Import hail matrix table\nmt = hl.read_matrix_table(INPUT + 'DATASETS/' + 'hail.demo.1kg.mt')\n\n# Check number of sites & samples\nmt.count()",
+      "text": "%pyspark\n# Fill input urn below\nINPUT='s3://...'\n\n# Import hail matrix table\nmt = hl.read_matrix_table(INPUT + '/hail.demo.1kg.mt')\n\n# Check number of sites & samples\nmt.count()",
       "user": "anonymous",
       "dateUpdated": "2021-06-11T02:31:01+0000",
       "config": {
@@ -327,7 +327,7 @@
       "$$hashKey": "object:227"
     },
     {
-      "text": "%pyspark\n# Import phenotypes\nht_pheno = hl.read_table(INPUT + 'DATASETS/' + '1kg.annotations.ht')\n\n# Add phenotypes as a sample annotation\nmt = mt.annotate_cols(pheno = ht_pheno[mt.s])\n\n# Inspect the phenotypes\nmt.pheno.show()",
+      "text": "%pyspark\n# Import phenotypes\nht_pheno = hl.read_table(INPUT + '/1kg.annotations.ht')\n\n# Add phenotypes as a sample annotation\nmt = mt.annotate_cols(pheno = ht_pheno[mt.s])\n\n# Inspect the phenotypes\nmt.pheno.show()",
       "user": "anonymous",
       "dateUpdated": "2021-06-11T02:31:53+0000",
       "config": {
