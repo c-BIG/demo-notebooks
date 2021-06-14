@@ -114,7 +114,7 @@
         "msg": [
           {
             "type": "HTML",
-            "data": "<h3>List files</h3>\n<p>We can find [Input urn] and [Output urn] into the text file &ldquo;Studyinfo&rdquo; present on the desktop.\n<br  />We can <strong>read</strong> data from [Input urn]/DATASETS and <strong>write</strong> data into [Output urn]</p>\n"
+            "data": "<h3>List files</h3>\n<p>We can find [Input urn] and [Output urn] into the text file &ldquo;Studyinfo&rdquo; present on the desktop.\n<br  />We can <strong>read</strong> data from [Input urn] and <strong>write</strong> data into [Output urn]</p>\n"
           }
         ]
       },
